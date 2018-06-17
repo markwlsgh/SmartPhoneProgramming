@@ -71,7 +71,7 @@
 		A19C13FA208D72A1001A4792 = {
 			isa = PBXGroup;
 			children = (
-				A19C1405208D72A1001A4792 /* HospitalMap */,
+				A19C1405208D72A1001A4792 /* Termproject */,
 				A19C1404208D72A1001A4792 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A19C1405208D72A1001A4792 /* HospitalMap */ = {
+		A19C1405208D72A1001A4792 /* Termproject */ = {
 			isa = PBXGroup;
 			children = (
 				A1B6A71520CE132F00219E36 /* Common */,
@@ -100,7 +100,7 @@
 				A1B6A73120CF90C500219E36 /* Config.swift */,
 				A19C1412208D72A5001A4792 /* Info.plist */,
 			);
-			path = HospitalMap;
+			path = Termproject;
 			sourceTree = "<group>";
 		};
 		A1B6A71020CE0D9800219E36 /* Assets */ = {
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A19C13FE208D72A1001A4792 /* Build configuration list for PBXProject "HospitalMap" */;
+			buildConfigurationList = A19C13FE208D72A1001A4792 /* Build configuration list for PBXProject "Termproject_Gukakapp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -396,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6UYRN7XD7;
-				INFOPLIST_FILE = HospitalMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Termproject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6UYRN7XD7;
-				INFOPLIST_FILE = HospitalMap/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Termproject/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A19C13FE208D72A1001A4792 /* Build configuration list for PBXProject "HospitalMap" */ = {
+		A19C13FE208D72A1001A4792 /* Build configuration list for PBXProject "Termproject_Gukakapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A19C1413208D72A5001A4792 /* Debug */,
