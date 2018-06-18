@@ -129,11 +129,10 @@ class SuggestTableViewController: UIViewController, XMLParserDelegate, UITableVi
         date.dateFormat = "yyyy-MM-dd"
         
         var Day = date.string(from: now)
-        hospitalname = "동요"
-        hospitalname_utf8 = hospitalname.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+
         
         posts = []
-        parser = XMLParser(contentsOf:(URL(string:url +  "&pageNo=\(pageNum)&numOfRows=4" + "&eventday=\(Day)&title=\(hospitalname_utf8)&startdate=2018-03-01&enddate=2018-12-31"))!)!
+        parser = XMLParser(contentsOf:(URL(string:url +  "&pageNo=\(pageNum)&numOfRows=4" + "&eventDate=\(Day)"))!)!
         parser.delegate = self
         parser.parse()
         tbData!.reloadData()
